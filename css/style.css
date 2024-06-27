@@ -1,7 +1,82 @@
-.bodoy{
-    .p{
-        color: aqua;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
 
-    }
-    
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #446688;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #777;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    width: 50%;
+    margin: 20px auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section p {
+    font-size: 1.2rem;
+}
+
+details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+summary {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+article {
+    margin-left: 20px;
+}
+
+article p {
+    font-size: 1.1rem;
+}
+
+article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
 }
